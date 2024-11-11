@@ -1,4 +1,4 @@
-POST http://localhost:12345 HTTP/1.1
+POST http://localhost:12345?test_mode=true HTTP/1.1
 Mime-Type: image/png
 
 < ../assets/example.jpg
